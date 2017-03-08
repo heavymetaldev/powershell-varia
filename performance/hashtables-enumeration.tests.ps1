@@ -1,7 +1,7 @@
 import-module pester
 
 Describe "Hashtable enumeration" {
-    $size = 10000
+    $size = 1000
     Context "with a big ($size) hash" {
         $h = @{
         }
